@@ -1,0 +1,30 @@
+@import "../mixins.scss";
+
+/*.text-sec {
+    width: 50%;
+    h1 {
+        color: #fff;
+        @include font(900,3vw);
+        width: 80%;
+    }
+    p {
+        color: #fff;
+        @include font(500,15px);
+        width: 85%;
+        margin-top: 3%;
+    }
+}*/
+.text-sec {
+    width: 50%;
+    h1 {
+        color: #fff;
+        @include font(900,3vw);
+        width: 80%;
+    }
+    p {
+        color: #fff;
+        @include font(500,15px);
+        width:85%;
+        margin-top: 3%;
+    }
+}
