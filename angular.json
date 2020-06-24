@@ -116,8 +116,13 @@
               "devServerTarget": "signUpForm:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "signUpForm"
 }

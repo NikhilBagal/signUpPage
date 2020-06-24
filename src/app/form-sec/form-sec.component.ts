@@ -1,5 +1,4 @@
 import { Component, OnInit,AfterViewInit, ViewChild, ElementRef } from '@angular/core';
-import { dashCaseToCamelCase } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-form-sec',
@@ -17,6 +16,7 @@ export class FormSecComponent implements OnInit {
     ngAfterViewInit(){
         this.span.nativeElement.style.display = "block"
     }
+    //function to check for input errors
     check(event:any){
         const i = event.target;
         if(i.value !== ''){
@@ -53,11 +53,6 @@ export class FormSecComponent implements OnInit {
                     }else {
                         this.span.nativeElement.style.color = "red"
                     }
-                    break;
-                case 'country-input':
-                    
-                    
-                   // i.value = "india";
                     break;
                 }
         }else {
