@@ -6,7 +6,7 @@ import { Component, OnInit,AfterViewInit, ViewChild, ElementRef } from '@angular
   styleUrls: ['./form-sec.component.scss']
 })
 export class FormSecComponent implements OnInit {
-    @ViewChild('passerror',{static: false}) span:ElementRef;
+    @ViewChild('passerror') span:ElementRef;
     
     constructor() { }
 
